@@ -1,8 +1,8 @@
 body{
+	background-color: rgb(145, 241, 145);
 	font-size: 35px;
 	font-family: sans-serif;
 	color: #333;
-    
 }
 .question{
 	font-weight: 700;
