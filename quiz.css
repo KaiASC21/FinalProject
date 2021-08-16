@@ -1,0 +1,112 @@
+body{
+	font-size: 35px;
+	font-family: sans-serif;
+	color: #333;
+    
+}
+.question{
+	font-weight: 700;
+	margin-left: 20px;
+	font-size: 35px;
+}
+.answers {
+	margin-bottom: 20px;
+	margin-left: 40px;
+	font-size: 30px;
+}
+.answers label{
+	display: block;
+	margin-left: 20px;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 10px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+}
+
+#results{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+/* Testing 4 navbar*/
+
+#navbar {
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	color:black;
+	font-weight: bold;
+	padding: 25px;
+}
+	
+#navbar h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	font-style: oblique;
+	color: green;
+	padding: 0px;
+}
+  
+#navbar a {
+	font-family: Helvetica;
+	font-size: 50px;
+	font-style: oblique;
+	color: green;
+	padding: 0px;
+}
+	
+.navpage {
+	font-family: Helvetica;
+	color: black;
+	font-size: 20px;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+	
+#page1:hover {
+	color: red;
+	opacity: 0.5;
+}
+	
+	
+#page2:hover {
+	color: green;
+	opacity: 0.5;
+	
+}
+	
+	
+#page3:hover {
+	color:orange;
+	opacity: 0.5;
+	
+}
+	
+	
+#page4:hover {
+	color: steelblue;
+	opacity: 0.5;
+	
+}
+  
+#page5:hover {
+	color: turquoise;
+	opacity: 0.5;
+}
+  
+.navpage a {
+	text-decoration: none;
+}
