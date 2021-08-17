@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(145, 241, 145);
+	background-color: white;
 	font-size: 35px;
 	font-family: sans-serif;
 	color: #333;
@@ -44,7 +44,7 @@ body{
 #navbar {
 	display: flex;
 	justify-content: space-around;
-	background-color: white;
+	/* background-color: white; */
 	color:black;
 	font-weight: bold;
 	padding: 25px;
@@ -54,7 +54,11 @@ body{
 	font-family: Helvetica;
 	font-size: 50px;
 	font-style: oblique;
-	color: green;
+	/*color: green;*/
+	background: -webkit-linear-gradient(green,lightgreen);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	padding: 0px;
 }
   
@@ -74,6 +78,7 @@ body{
 	margin: 20px;
 	border-radius: 25px;
 	text-decoration: none;
+	font-style: normal;
 }
 	
 #page1:hover {

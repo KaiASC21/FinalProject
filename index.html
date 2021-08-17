@@ -6,19 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel='stylesheet' href="style.css">
+    <link rel='stylesheet' href="homepage.css">
+    <script src="homepage.js" defer> </script>
 </head>
 <body>
 
     <div>
      <div id="navbar">
-         <a href='index.html' style="text-decoration:none"> <h1>PlaceHolder</h1></a>
+         <a href='index.html' style="text-decoration:none"> <h1>GreenGoblin</h1></a>
          <a href="energysaving.html" style="text-decoration:none"><div class="navpage" id='page1'>ENERGY SAVING</div></a>
          <a href="recycling.html" style="text-decoration:none"><div class="navpage" id='page2'>RECYCLING</div></a>
          <a href="foodwaste.html" style="text-decoration:none"><div class="navpage" id='page3'>FOOD WASTE</div></a>
          <a href="globalwarming.html" style="text-decoration:none"><div class="navpage" id='page4'>CLIMATE CHANGE</div></a>
          <a href="quiz.html" style="text-decoration:none"><div class="navpage" id='page5'>QUIZ</div></a>
-     </div>
+    </div>
     </div>  
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="https://www.onsightapp.com/blog/wp-content/uploads/2018/03/gogreen.jpg" style="width:100%">
+          <div class="text"> Welcome to our Website!</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="https://www.nkrealtors.com/blog/wp-content/uploads/2019/09/carbon-footprint.jpg" style="width:100%">
+          <div class="text">Learn more about energy and reducing yoru carbon footprint!</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="https://www.pinclipart.com/picdir/big/206-2060293_image-of-the-words-reduce-reuse-recycle-reuse.png" style="width:100%">
+          <div class="text"><!--Reuse, Recycle, Reduce!--></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="https://www.calacademy.org/sites/default/files/styles/manual_crop_standard_960x540/public/assets/images/Education_Images/TYE_Images/foodwasteaudit_reducingfoodwaste-1688x900.jpg?itok=CIxaTmqe&c=a26b26ef7d03e819c37fd73f2caacdbc" style="width:100%">
+          <div class="text">Let's Eat!</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="https://www.usgbc.org/sites/default/files/CoverImage.jpg" style="width:100%">
+          <div class="text"> Learn more about our ever-changing climate!</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="https://www.healthvermont.gov/sites/default/files/images/2017/07/ENV_CH_icon_climate.png" style="width:100%">
+          <div class="text"> Test your knowledge on being green!</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+   <br>
+      
+  <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+
+
     
 </body>
 </html>
