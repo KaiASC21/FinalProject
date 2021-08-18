@@ -133,7 +133,7 @@ font-family: Verdana;
 
 .tips {
   /*background: -webkit-linear-gradient(top right, green,lightgreen);*/
-  background: green;
+  background: rgb(12, 168, 12);
   border-radius: 15px;
   padding-left: 10px;
   padding-right: 10px;
@@ -166,4 +166,28 @@ h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
   color: black;
+}
+
+footer h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+footer ul {
+  list-style-type: none;
+  background: -webkit-linear-gradient(top right, green,lightgreen);
+  border: rgb(13, 182, 13) solid 5px;
+}
+
+footer li {
+font-size: 20px;
+color: white;
+font-style: oblique;
+font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }

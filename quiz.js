@@ -83,102 +83,104 @@ const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question: "1) Which item below can be recycled, based on size?",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
+        a: "Plastic cutlery",
+        b: "Bottle caps",
+        c: "Coffee pods",
+        d: "Plastic bottle with cap on"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "2) Which can you not use for composting?",
+      answers: {
+        a: "Plastic bottle",
+        b: "Bannana peel",
+        c: "Strawberries",
+        d: "Old rice",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "3) What type of lighting should you not use at home?",
+      answers: {
+        a: "Natural lighting",
+        b: "Compact fluorescent lights (CFLs)",
+        c: "Incandescent lightbulbs",
+        d: "LED Lightbulbs"
       },
       correctAnswer: "c"
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "4) When preparing food which of the following should you do?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "Leave old ingredients in the fridge to rot",
+        b: "Take into account portion size",
+        c: "Use machine packed produce",
+        d: "Cook as much as possible"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "5) Which of the following is true?",
+      answers: {
+        a: "Walking emits carbon",
+        b: "Driving is the most eco-friendly way to commute to work",
+        c: "Carpooling is inefficient",
+        d: "Biking and walking are great alternatives to cars"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "6) How can you reduce your carbon emission?",
+      answers: {
+        a: "Leave the facuet running",
+        b: "Waste electricty",
+        c: "Drive everywhere you go",
+        d: "Walk and bike"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "7) What is the greenhouse effect?",
+      answers: {
+        a: "A way to plant food",
+        b: "Good way to create energy",
+        c: "Great way to cooke steak",
+        d: "Process on earth that keeps earth warm"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "8) How should you throw away batteries?",
+      answers: {
+        a: "Recycle them with plastics",
+        b: "Recycle them with metals",
+        c: "Either recycle them with plastics or metals",
+        d: "Put them in regular trash"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "9) What should you do to save energy?",
+      answers: {
+        a: "Leave the cold water running to cool the room",
+        b: "Use a fan instead of air conditioner",
+        c: "Make better use of natural light",
+        d: "Use fire as a light source"
       },
       correctAnswer: "c"
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question: "10) What is a benefit of reducing the amount of water you use?",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
+        a: "Lower water bills and lower use of power",
+        b: "Higher water bills",
+        c: "More cold water",
+        d: "Higher water pressure"
       },
-      correctAnswer: "d"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
+      correctAnswer: "a"
     }
   ];
 
