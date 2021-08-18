@@ -10,7 +10,8 @@
 #navbar h1 {
   font-family: Helvetica;
   font-size: 50px;
-  font-style: oblique;
+  font-style: bolder;
+  /* font-style: oblique; */
   /* color: green; */
   background: -webkit-linear-gradient(green,lightgreen);
   -webkit-background-clip: text;
@@ -22,7 +23,7 @@
 #navbar a {
   font-family: Helvetica;
   font-size: 50px;
-  font-style: oblique;
+	/* font-style: oblique; */  
   color: green;
   padding: 0px;
 }
@@ -45,14 +46,14 @@
   
   
 #page2:hover {
-  color: green;
+  color: orange;
   opacity: 0.5;
   
 }
   
   
 #page3:hover {
-  color:orange;
+  color:green;
   opacity: 0.5;
   
 }
@@ -131,3 +132,30 @@ font-family: Verdana;
 /* Energy Saving FAQ thingy -END- */
 /* Image thingy for homepage */
 
+.tips {
+    background-color: #3fe939;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Garamond;
+    transition: 0.15s background-color, 0.15s font-size;
+}
+
+.tips:hover{
+    background-color: rgb(159, 240, 121);
+    font-size: 150%;
+}
+
+.maininfo{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  margin: 50px 0 0;
+  color: black;
+}
+
+.infotext {
+  font-size: 20px;
+}
