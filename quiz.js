@@ -67,6 +67,15 @@ function buildQuiz(){
   
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    if (numCorrect > 8) {
+      alert("Eco-friendly grade: A+ You are on the right path in becoming more green! Keep up the good work.");
+    }
+    if (numCorrect > 6 && numCorrect < 8){
+      alert("Eco-friendly grade: B Good try, look through the website one more time to refresh your mind on any parts that you forgot!");
+    }
+    if (numCorrect<6){
+      alert("Eco-friendly grade: F Try again! Make sure to look at the tips we provide you, pay attention to the small details!");
+    }
   }
 
 const quizContainer = document.getElementById('quiz');

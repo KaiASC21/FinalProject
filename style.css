@@ -20,6 +20,10 @@
   padding: 0px;
 }
 
+#navbar h1:hover {
+  opacity: 0.5;
+}
+
 #navbar a {
   font-family: Helvetica;
   font-size: 50px;
@@ -128,18 +132,20 @@ font-family: Verdana;
 /* Image thingy for homepage */
 
 .tips {
-    background-color: #3fe939;
-    border-radius: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: Garamond;
-    transition: 0.15s background-color, 0.15s font-size;
+  /*background: -webkit-linear-gradient(top right, green,lightgreen);*/
+  background: green;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  color: white;
+  font-family: Helvetica;
+  padding-bottom: 5px;
+  transition: 0.15s background-color, 0.15s font-size;
 }
 
 .tips:hover{
-    background-color: rgb(159, 240, 121);
+    background-color: rgb(95, 226, 34);
     font-size: 150%;
 }
 
@@ -153,4 +159,11 @@ font-family: Verdana;
 
 .infotext {
   font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: black;
 }

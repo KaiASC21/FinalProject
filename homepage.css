@@ -10,8 +10,8 @@
 
 .mySlides {
   display: none;
-  max-width: 720px;
-  max-height: 540px;
+  max-width: 1280px;
+  max-height: 720px;
 }
 
 .prev, .next {
