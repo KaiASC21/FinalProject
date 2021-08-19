@@ -191,3 +191,21 @@ footer a {
   text-decoration: none;
   color: white;
 }
+
+.imageHolder {
+  display: inline-block;
+  justify-content: center;
+}
+
+.imgContainer{
+  float:left;
+  border: solid rgb(12, 168, 12) 5px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+}
+
+.imgContainer:hover {
+  opacity: 0.5;
+}
