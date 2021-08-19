@@ -145,9 +145,9 @@ const myQuestions = [
     {
       question: "7) What is the greenhouse effect?",
       answers: {
-        a: "A way to plant food",
+        a: "A way to plant vegetables",
         b: "Good way to create energy",
-        c: "Great way to cooke steak",
+        c: "Great way to cook steak",
         d: "Process on earth that keeps earth warm"
       },
       correctAnswer: "d"
@@ -175,7 +175,7 @@ const myQuestions = [
     {
       question: "10) What is a benefit of reducing the amount of water you use?",
       answers: {
-        a: "Lower water bills and lower use of power",
+        a: "Lower water bills and conservation of power",
         b: "Higher water bills",
         c: "More cold water",
         d: "Higher water pressure"
